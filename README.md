@@ -6,7 +6,7 @@ Term: Spring 2024
 
 + Team 2
 
-+ Projec title: Machine Learning Fairness Algorithms Evaluation: A Comparative Analysis of Learning Fair Representations and Fairness Constraints: Mechanisms for Fair Classification
++ Projec title: Machine Learning Fairness Algorithms Evaluation: A Comparative Analysis of Learning Fair Representations(A1) and Fairness Constraints: Mechanisms for Fair Classification(A2)
 
 + Team members
 	+ Tien Nguyen
@@ -19,7 +19,7 @@ Term: Spring 2024
 - Learning Fair Representations (Zemel et al., 2013): This approach focuses on data representation. It aims to learn informative features from the data while simultaneously obfuscating sensitive attributes, like race, that could lead to bias.
 - Fairness Constraints: Mechanisms for Fair Classification - Mitigating Disparate Treatment (Feldman et al., 2015): This approach moves beyond traditional fairness metrics like disparate treatment (where a protected group is systematically favored or disfavored) and disparate impact (where the model's outcomes disproportionately affect a protected group). It seeks to prevent unfair outcomes even when statistical parity exists between groups.
 
-- Project Conclusion: Given the higher accuracy and better calibration, Algorithm 1 is preferred over Algorithm 2.
+- Project Conclusion: Given the higher accuracy and better calibration, Algorithm 1 (Learning Fair Representation) is preferred over Algorithm 2(Fairness Constraints: Mechanisms for Fair Classification). The advantage of learning fair representations is mainly in their ability to generalize and be applied across various tasks and models, potentially simplifying the machine learning pipeline. This approach requires careful design to ensure that the representation does not encode bias in subtle ways.
 
 **Contribution statement**: All team members contributed equally in all stages of this project. All team members approve our work presented in this GitHub repository including this contributions statement.
 
